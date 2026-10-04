@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="洪水・内水氾濫・高潮・土砂災害から家族を守るために、リスク、情報、避難、計画を順番に学べるガイドです。">
+  <title>わが家の風水害防災ガイド</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%230ea5e9'/%3E%3Cpath d='M13 38c7-7 13 7 20 0s13 7 19 0M20 30l12-10 12 10v13H20z' fill='none' stroke='white' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へ移動</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 14c3-3 5 3 8 0s5 3 8 0M6 11l6-5 6 5v7H6z"/></svg></span>わが家の風水害防災ガイド</a>
+      <button class="menu-button" aria-expanded="false" aria-controls="site-nav" aria-label="メニューを開く"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      <nav class="nav" id="site-nav" aria-label="メインナビゲーション">
+        <a href="index.html" aria-current="page">ホーム</a><a href="risk.html">私の災害リスク</a><a href="information.html">防災情報</a><a href="evacuation.html">避難を考える</a><a href="plan.html">私の避難計画</a><a href="action.html">私たちにできること</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">家族の風水害防災ガイド</p>
+          <h1>私と家族を守る<span class="no-break">ために、今から</span>できること。</h1>
+          <p class="lead">洪水・内水氾濫・高潮・土砂災害から家族を守るための学習サイトです。4つの質問から、あなたが次に確認することを見つけられます。</p>
+          <a class="button button-primary" href="#check">かんたん診断を始める <span class="arrow">→</span></a>
+        </div>
+        <div class="hero-art">
+          <img class="hero-image" src="assets/images/top-family-evacuation.png" alt="雨の中、安全な場所へ避難する家族" width="1200" height="900">
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="check">
+      <div class="container">
+        <div class="section-heading quiz-heading section-heading--mascot"><p class="eyebrow">かんたん診断</p><h2>私に必要な備えを見つける</h2><p>それぞれ、今の状況に近い答えを選んでください。</p><img class="section-mascot" src="assets/images/mizubousai-thinking.png" alt="" width="320" height="324"></div>
+        <form class="quiz-list" data-quiz>
+          <fieldset class="card quiz-card"><legend>Q1. 自宅やよく行く場所の洪水・内水氾濫・高潮・土砂災害の危険を確認したことがありますか？</legend><div class="choice-row"><label class="choice"><input type="radio" name="q1" value="yes"><span>はい</span></label><label class="choice"><input type="radio" name="q1" value="no"><span>まだ</span></label><label class="choice"><input type="radio" name="q1" value="unknown"><span>よく分からない</span></label></div></fieldset>
+          <fieldset class="card quiz-card"><legend>Q2. 大雨や台風のとき、どこで情報を確認するか決めていますか？</legend><div class="choice-row"><label class="choice"><input type="radio" name="q2" value="yes"><span>はい</span></label><label class="choice"><input type="radio" name="q2" value="no"><span>まだ</span></label><label class="choice"><input type="radio" name="q2" value="unknown"><span>よく分からない</span></label></div></fieldset>
+          <fieldset class="card quiz-card"><legend>Q3. いつ、どこへ避難するか決めていますか？</legend><div class="choice-row"><label class="choice"><input type="radio" name="q3" value="yes"><span>はい</span></label><label class="choice"><input type="radio" name="q3" value="no"><span>まだ</span></label><label class="choice"><input type="radio" name="q3" value="unknown"><span>よく分からない</span></label></div></fieldset>
+          <fieldset class="card quiz-card"><legend>Q4. 自分や家族の避難計画を作っていますか？</legend><div class="choice-row"><label class="choice"><input type="radio" name="q4" value="yes"><span>はい</span></label><label class="choice"><input type="radio" name="q4" value="no"><span>まだ</span></label></div></fieldset>
+          <div class="card quiz-result" data-quiz-result aria-live="polite" aria-atomic="true"><div class="quiz-result-copy"><strong></strong><p></p></div><div class="quiz-result-links" data-quiz-links></div></div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container"><div class="section-heading"><p class="eyebrow">対象となる災害</p><h2>大雨や台風で起こる災害</h2></div>
+        <div class="grid-4"><article class="card info-card hazard-card"><a class="zoomable-image-link" href="assets/images/top-hazard-flood.png" target="_blank" rel="noopener noreferrer" aria-label="大雨で増水した川を拡大表示"><img class="hazard-card-image" src="assets/images/top-hazard-flood.png" alt="大雨で増水した川" width="1000" height="750"></a><div class="hazard-card-body"><h3>洪水</h3><p>大雨で川の水が増え、堤防を越えたり壊れたりして、まちに水が広がることがあります。</p></div></article><article class="card info-card hazard-card"><a class="zoomable-image-link" href="assets/images/top-hazard-inland-flood.png" target="_blank" rel="noopener noreferrer" aria-label="雨水で冠水した住宅地の道路を拡大表示"><img class="hazard-card-image" src="assets/images/top-hazard-inland-flood.png" alt="雨水で冠水した住宅地の道路" width="1000" height="667"></a><div class="hazard-card-body"><h3>内水氾濫</h3><p>短時間の強い雨を排水しきれず、道路や住宅地に水がたまることがあります。</p></div></article><article class="card info-card hazard-card"><a class="zoomable-image-link" href="assets/images/top-hazard-storm-surge.png" target="_blank" rel="noopener noreferrer" aria-label="強風と高波で浸水した海岸沿いの道路を拡大表示"><img class="hazard-card-image" src="assets/images/top-hazard-storm-surge.png" alt="強風と高波で浸水した海岸沿いの道路" width="1000" height="667"></a><div class="hazard-card-body"><h3>高潮</h3><p>台風などで海面が上がり、海岸近くの地域が浸水することがあります。</p></div></article><article class="card info-card hazard-card"><a class="zoomable-image-link" href="assets/images/top-hazard-landslide.png" target="_blank" rel="noopener noreferrer" aria-label="大雨で崩れた斜面と土砂が流れ込んだ道路を拡大表示"><img class="hazard-card-image" src="assets/images/top-hazard-landslide.png" alt="大雨で崩れた斜面と土砂が流れ込んだ道路" width="1000" height="667"></a><div class="hazard-card-body"><h3>土砂災害</h3><p>大雨で斜面が崩れたり、土石流が発生したりして、住宅や道路に土砂が押し寄せることがあります。</p></div></article></div>
+      </div>
+    </section>
+
+    <section class="section section-soft"><div class="container"><div class="section-heading"><p class="eyebrow">自分ごとにする</p><h2>災害は私にも関係ある？</h2></div><div class="grid-4"><div class="card question-tile"><a class="zoomable-image-link" href="assets/images/top-risk-hazard-area.png" target="_blank" rel="noopener noreferrer" aria-label="川と斜面に近い住宅の災害リスクを確認するイメージを拡大表示"><img class="question-illustration" src="assets/images/top-risk-hazard-area.png" alt="川と斜面に近い住宅の災害リスクを確認するイメージ" width="720" height="720"></a>私の家は浸水想定区域や土砂災害警戒区域にある？</div><div class="card question-tile"><a class="zoomable-image-link" href="assets/images/top-risk-depth-and-slope.png" target="_blank" rel="noopener noreferrer" aria-label="住宅周辺の浸水深と斜面の危険を確認するイメージを拡大表示"><img class="question-illustration" src="assets/images/top-risk-depth-and-slope.png" alt="住宅周辺の浸水深と斜面の危険を確認するイメージ" width="720" height="720"></a>水の深さや、近くの斜面の危険は？</div><div class="card question-tile"><a class="zoomable-image-link" href="assets/images/top-risk-evacuation-destination.png" target="_blank" rel="noopener noreferrer" aria-label="安全な避難先と経路を確認するイメージを拡大表示"><img class="question-illustration" src="assets/images/top-risk-evacuation-destination.png" alt="安全な避難先と経路を確認するイメージ" width="720" height="720"></a>避難するとしたら、どこへ行く？</div><div class="card question-tile"><a class="zoomable-image-link" href="assets/images/top-risk-information.png" target="_blank" rel="noopener noreferrer" aria-label="スマートフォンで大雨の危険度を確認するイメージを拡大表示"><img class="question-illustration" src="assets/images/top-risk-information.png" alt="スマートフォンで大雨の危険度を確認するイメージ" width="720" height="720"></a>大雨のとき、何を見て判断する？</div></div></div></section>
+    <section class="section"><div class="container"><div class="feature-banner feature-banner--no-icon"><div><h2>私たちにできること</h2><p>水をためる、地面にしみ込ませる、地域の防災活動に参加する。避難のほかにも、今からできることがあります。</p></div><a class="button" href="action.html">詳しく見る <span>→</span></a></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><span>© わが家の風水害防災ガイド</span><div class="footer-links"><a href="index.html">ホーム</a><a href="plan.html">避難計画</a></div></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
