@@ -20,3 +20,10 @@ npm run dev
 - `action.html` — 家庭・地域でできること
 
 マイ・タイムラインの入力内容は、使用中のブラウザ内だけに一時保存されます。
+
+## セキュリティ構成
+
+- HTML、CSS、ブラウザJavaScriptだけで配信する静的サイトです。
+- Node.jsまたはPHPのサーバー処理、外部パッケージ、データベースは使用していません。
+- 入力した避難計画は外部へ送信せず、ブラウザの `localStorage` だけに保存します。
+- Vercelの `vercel.json` でContent Security PolicyなどのHTTPセキュリティヘッダーを設定しています。
